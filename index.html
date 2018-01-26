@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="css/materialize.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
+     
+
+
+<script>
+	$(document).ready(function(){
+		$('.carousel').carousel();
+
+
+
+		$('.next').click(function(){
+			$('.carousel').carousel('next');
+		});
+
+		$('.prev').click(function(){
+			$('.carousel').carousel('prev');
+		});
+	});
+</script>
+
+<div class="container">
+
+	<div class="card green white-text">
+		<div class="card-content">
+			<h3 class="center-align">Materialize-css carousel with Next Prev buttons</h3>
+		</div>
+	</div>
+
+
+<div class="carousel carousel-slider" data-indicators="true">
+	<a herf="#one!" class="carousel-item"><img src="images/a.jpg"></a>
+	<a herf="#two!" class="carousel-item"><img src="images/b.jpg"></a>
+	<a herf="#three!" class="carousel-item"><img src="images/c.jpg"></a>
+	<a herf="#four!" class="carousel-item"><img src="images/d.jpg"></a>
+	<a herf="#five!" class="carousel-item"><img src="images/e.jpg"></a>
+
+ 
+</div>
+ <br>
+
+ <div class="btn green prev waves-effect">Prev</div>
+ <div class="btn green next waves-effect">Next</div>
+
+ </div>
+
+
